@@ -1,14 +1,18 @@
 function forLoop(array){
-  for (let i = 0; i < 25; i++) {
+  for (let i = 0; i < 10; i++) {
     var n = i
 
     array[i] = `I am ${i} strange loop${i === 0 ? '':'s'}.`
     console.log(array[i]);
 
-
     //array[11] = `I am 1 strange loop`;
     //array[34] = `I am 24 strange loops.`;
-
+    
+  }
+  for (let i = 10; i<20; i++){
+    var j = 1
+    array[i] = `I am ${j} strange loop${j === 1 ? '':'s'}.`
+    j++;
   }
   return array;
 }
