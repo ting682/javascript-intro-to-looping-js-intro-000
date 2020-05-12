@@ -5,9 +5,9 @@ function forLoop(array){
     if (i===11){
       array[i] = `I am 1 strange loop.`;
     }
-    if (i===34){
-      array[i] = `I am 24 strange loops.`;
-    }
+
+    array[34] = `I am 24 strange loops.`;
+
   }
   for(let j = 26; j>40; j++){
     array[j] = `I am 24 strange loops.`
