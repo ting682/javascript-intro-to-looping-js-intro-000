@@ -7,7 +7,7 @@ function forLoop(array){
     if(i > 10){
       n = 0
     }
-    console.log(array.length);
+    
     //array[11] = `I am 1 strange loop`;
     //array[34] = `I am 24 strange loops.`;
 
