@@ -15,7 +15,7 @@ function forLoop(array){
     j++;
     console.log(array[i])
   }
-  
+
   return array;
 }
 function whileLoop(n){
