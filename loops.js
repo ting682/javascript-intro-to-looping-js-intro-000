@@ -13,7 +13,7 @@ function forLoop(array){
     var k = 1
     array[j] = `I am ${k} strange loop${k === 1 ? '':'s'}.`
     k++;
-    console.log(array[i])
+    console.log(array[j])
   }
 
   return array;
