@@ -9,11 +9,11 @@ function forLoop(array){
     //array[34] = `I am 24 strange loops.`;
 
   }
-  var k = 0
+  var k = 1
   for (let j = 10; j<25; j++){
 
 
-    array[j] = `I am ${k} strange loop${k === 0 ? '':'s'}.`
+    array[j] = `I am ${k} strange loop${k === 1 ? '':'s'}.`
     k = k + 1;
     console.log(array[j])
   }
