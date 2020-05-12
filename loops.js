@@ -2,7 +2,7 @@ function forLoop(array){
   for (let i = 0; i < array.length; i++) {
     var n = i
 
-    array[i] = `I am ${n} strange loop${n ===0 ? '':'s'}.`
+    array[i] = `I am ${n} strange loop${n === 0 ? '':'s'}.`
     console.log(array[n]);
     if(i > 10){
       n = 0
