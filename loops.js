@@ -1,10 +1,11 @@
 function forLoop(array){
-  for (let i = 0; i < 25; i++) {
+  for (let i = 0; i < array.length; i++) {
     var n = i
-    array[n] = `I am ${n} strange loop${n ===0 ? '':'s'}.`
+    
+    array[i] = `I am ${n} strange loop${n ===0 ? '':'s'}.`
     console.log(array[n]);
-    if(array.length > 10){
-      //i = 0
+    if(i > 10){
+      n = 0
     }
     console.log(array.length);
     //array[11] = `I am 1 strange loop`;
