@@ -5,8 +5,11 @@ function forLoop(array){
 
     array[i] = `I am ${i} strange loop${i === 0 ? '':'s'}.`
     console.log(array[i]);
-    if(array.length > 10){
-      n = 0
+    if(i > 10){
+      for(let j = 0; j < 10; j++){
+        array[i] = `I am ${j} strange loop${j === 0 ? '':'s'}.`
+      }
+      
     }
 
     //array[11] = `I am 1 strange loop`;
