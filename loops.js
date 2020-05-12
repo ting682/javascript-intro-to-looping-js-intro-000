@@ -4,7 +4,7 @@ function forLoop(array){
       if(i>11){
         var n = i + 1;
         array[i] = `I am ${n} strange loop${i===0 ? '':'s'}.`
-        console.log(array[i]);
+        console.log(i);
       }
       else{
 
