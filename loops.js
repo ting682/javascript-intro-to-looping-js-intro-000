@@ -11,7 +11,7 @@ function forLoop(array){
 //        array[j] = `I am ${i} strange loop${i ===0 ? '':'s'}.`
 //      }
 
-    }
+    //}
     //array[11] = `I am 1 strange loop`;
     //array[34] = `I am 24 strange loops.`;
 
