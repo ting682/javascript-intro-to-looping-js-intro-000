@@ -2,10 +2,13 @@ function forLoop(array){
   for (let i = 0; i < array.length; i++) {
     array[i] = `I am ${i} strange loop${i ===0 ? '':'s'}.`
     console.log(array[i]);
-    if (i===11){
-      array[i] = `I am 1 strange loop.`;
-    }
+    if (array.length > 25){
+      for(let j = 0; j<25; j++){
+        array[j] = `I am ${i} strange loop${i ===0 ? '':'s'}.`
+      }
 
+    }
+    //array[11] = `I am 1 strange loop`;
     //array[34] = `I am 24 strange loops.`;
 
   }
