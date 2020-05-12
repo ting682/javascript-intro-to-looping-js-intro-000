@@ -4,12 +4,12 @@ function forLoop(array){
       if(i>11){
         var n = i + 1;
         array[i] = `I am ${n} strange loop${i===0 ? '':'s'}.`
-        console.log(i);
+        console.log(array[i]);
       }
       else{
 
-        array[i] = `I am 1 strange loop.`
-        console.log(i)
+        array[i] = `I am 1 strange loop.`;
+        console.log(array[i]);
       }
   }
   return array;
