@@ -6,7 +6,7 @@ function forLoop(array){
       array[i] = `I am 1 strange loop.`;
     }
 
-    array[34] = `I am 24 strange loops.`;
+    //array[34] = `I am 24 strange loops.`;
 
   }
   return array;
