@@ -9,7 +9,7 @@ function forLoop(array){
     //  }
     //}
 
-    console.log(array[i]);
+    console.log(array[0]);
   }
   return array;
 }
