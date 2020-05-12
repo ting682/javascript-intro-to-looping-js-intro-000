@@ -4,7 +4,7 @@ function forLoop(array){
     array[n] = `I am ${n} strange loop${n ===0 ? '':'s'}.`
     console.log(array[n]);
     if(array.length > 10){
-      i = 0
+      //i = 0
     }
     console.log(array.length);
     //array[11] = `I am 1 strange loop`;
