@@ -11,8 +11,8 @@ function forLoop(array){
   }
   for (let j = 10; j<25; j++){
     var k = 1
-    array[j] = `I am ${k} strange loop${k === 1 ? '':'s'}.`
     k = k + 1;
+    array[j] = `I am ${k} strange loop${k === 1 ? '':'s'}.`
     console.log(array[j])
   }
 
