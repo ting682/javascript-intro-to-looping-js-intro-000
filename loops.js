@@ -9,9 +9,6 @@ function forLoop(array){
     array[34] = `I am 24 strange loops.`;
 
   }
-  for(let j = 26; j>40; j++){
-    array[j] = `I am 24 strange loops.`
-  }
   return array;
 }
 function whileLoop(n){
