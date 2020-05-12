@@ -7,7 +7,7 @@ function forLoop(array){
 
     //array[11] = `I am 1 strange loop`;
     //array[34] = `I am 24 strange loops.`;
-    
+
   }
   for (let i = 10; i<20; i++){
     var j = 1
