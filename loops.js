@@ -1,18 +1,7 @@
 function forLoop(array){
-  for (let i = 0; i < 25; i++) {
-
-      if(i>11){
-        var n = i + 1;
-        array[i] = `I am ${n} strange loop${i===0 ? '':'s'}.`
-        console.log(array[i]);
-      }
-      else{
-
-        array[i] = `I am 1 strange loop.`;
-        console.log(array[i]);
-      }
+  for (var i = 0; i < 25; i++) {
+    array[i] = `I am ${i} strange loop${i ===0 ? '':'s'}.`
   }
-  return array;
 }
 function whileLoop(n){
   while(n>0){
