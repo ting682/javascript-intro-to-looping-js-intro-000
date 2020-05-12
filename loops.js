@@ -5,6 +5,10 @@ function forLoop(array){
     if (i===11){
       array[i] = `I am 1 strange loop.`;
     }
+
+  }
+  for(let j = 26; j>40; j++){
+    array[j] = `I am 24 strange loops.`
   }
   return array;
 }
