@@ -6,12 +6,7 @@ function forLoop(array){
     if(array.length > 25){
       i = 0
     }
-//    if (array.length > 25){
-//      for(let j = 0; j<25; j++){
-//        array[j] = `I am ${i} strange loop${i ===0 ? '':'s'}.`
-//      }
 
-    //}
     //array[11] = `I am 1 strange loop`;
     //array[34] = `I am 24 strange loops.`;
 
