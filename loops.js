@@ -19,7 +19,7 @@ function forLoop(array){
   for (let l = 26; l<35; l++){
 
     array[l] = `I am 24 strange loops.`
-  
+
     console.log(array[l])
   }
 
