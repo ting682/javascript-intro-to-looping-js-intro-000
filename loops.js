@@ -5,9 +5,7 @@ function forLoop(array){
 
     array[i] = `I am ${i} strange loop${i === 0 ? '':'s'}.`
     console.log(array[i]);
-    if(i > 10){
 
-    }
 
     //array[11] = `I am 1 strange loop`;
     //array[34] = `I am 24 strange loops.`;
