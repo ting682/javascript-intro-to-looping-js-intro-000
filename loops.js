@@ -3,9 +3,9 @@ function forLoop(array){
     if (i<10){
       n = i + 1;
       array[i] = `I am ${n} strange loop${i === 0 ? '': 's'}.`;
-      else if(i===11){
+      else {
 
-          array[i] = `I am 1 strange loop`
+          array[i] = `I am 1 strange loop.`
       }
     }
 
